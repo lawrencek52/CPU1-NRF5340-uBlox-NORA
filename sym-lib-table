@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Richtek")(type "KiCad")(uri "C:/Users/Lawrence/OneDrive/Documents/Zed-Board/KiCAD-Libraries/RT6154AGQW/KiCADv6/2024-04-21_14-49-46.kicad_sym")(options "")(descr ""))
+  (lib (name "FH12-12S-0_5SVA_54_")(type "KiCad")(uri "C:/Users/Lawrence/OneDrive/Documents/Zed-Board/3D models/FPC_CONN/LIB_FH12-12S-0.5SVA_54_/FH12-12S-0.5SVA_54_/KiCad/FH12-12S-0_5SVA_54_.kicad_sym")(options "")(descr ""))
+  (lib (name "NORA-B106-00B")(type "KiCad")(uri "C:/Users/Lawrence/OneDrive/Documents/Zed-Board/3D models/uBLOX-Nora-B106-00B/NORA-B106-00B.kicad_sym")(options "")(descr ""))
+)
