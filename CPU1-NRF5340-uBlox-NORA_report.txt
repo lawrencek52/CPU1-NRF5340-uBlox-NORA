@@ -1,0 +1,47 @@
+PCB statistics report
+=====================
+- Date: 2025-08-29 5:41:06 PM
+- Project: CPU1-NRF5340-uBlox-NORA
+- Board name: CPU1-NRF5340-uBlox-NORA
+
+Board
+-----
+- Width: 50.0000 mm
+- Height: 30.0000 mm
+- Area: 1499.1375 mm²
+
+Pads
+----
+- Through hole: 6
+- SMD: 371
+- Connector: 0
+- NPTH: 10
+
+Vias
+----
+- Through vias: 314
+- Blind/buried: 0
+- Micro vias: 0
+
+Components
+----------
+
+|              | Front Side | Back Side | Total |
+|--------------|------------|-----------|-------|
+|THT:          |          0 |         0 |     0 |
+|SMD:          |         69 |         0 |    69 |
+|Unspecified:  |          6 |         0 |     6 |
+|Total:        |         75 |         0 |    75 |
+
+Drill holes
+-----------
+
+| Count | Shape |    X Size |    Y Size | Plated | Via/Pad | Start Layer | Stop Layer |
+|-------|-------|-----------|-----------|--------|---------|-------------|------------|
+|   314 | Round | 0.2000 mm | 0.2000 mm |    PTH |     Via |        F.Cu |       B.Cu |
+|     4 | Round | 3.2000 mm | 3.2000 mm |   NPTH |     Pad |        F.Cu |       B.Cu |
+|     4 | Round | 0.9000 mm | 0.9000 mm |   NPTH |     Pad |        F.Cu |       B.Cu |
+|     2 | Round | 0.6500 mm | 0.6500 mm |   NPTH |     Pad |        F.Cu |       B.Cu |
+|     2 |  Slot | 0.6000 mm | 1.7000 mm |    PTH |     Pad |        F.Cu |       B.Cu |
+|     2 |  Slot | 0.6000 mm | 1.4000 mm |    PTH |     Pad |        F.Cu |       B.Cu |
+|     2 | Round | 0.5000 mm | 0.5000 mm |    PTH |     Pad |        F.Cu |       B.Cu |

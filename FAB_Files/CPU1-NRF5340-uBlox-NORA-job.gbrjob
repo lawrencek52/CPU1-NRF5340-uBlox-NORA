@@ -1,0 +1,208 @@
+{
+  "Header": {
+    "GenerationSoftware": {
+      "Vendor": "KiCad",
+      "Application": "Pcbnew",
+      "Version": "9.0.4"
+    },
+    "CreationDate": "2025-09-08T17:38:28-04:00"
+  },
+  "GeneralSpecs": {
+    "ProjectId": {
+      "Name": "CPU1-NRF5340-uBlox-NORA",
+      "GUID": "43505531-2d4e-4524-9635-3334302d7542",
+      "Revision": "A"
+    },
+    "Size": {
+      "X": 50.05,
+      "Y": 30.05
+    },
+    "LayerNumber": 6,
+    "BoardThickness": 0.961,
+    "Finish": "Immersion gold"
+  },
+  "DesignRules": [
+    {
+      "Layers": "Outer",
+      "PadToPad": 0.127,
+      "PadToTrack": 0.127,
+      "TrackToTrack": 0.127,
+      "MinLineWidth": 0.127,
+      "TrackToRegion": 0.127,
+      "RegionToRegion": 0.127
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
+      "TrackToTrack": 0.127,
+      "MinLineWidth": 0.127,
+      "TrackToRegion": 0.127,
+      "RegionToRegion": 0.127
+    }
+  ],
+  "FilesAttributes": [
+    {
+      "Path": "CPU1-NRF5340-uBlox-NORA-F_Cu.gbr",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "CPU1-NRF5340-uBlox-NORA-in1_Cu.gbr",
+      "FileFunction": "Copper,L5,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "CPU1-NRF5340-uBlox-NORA-in2_Cu.gbr",
+      "FileFunction": "Copper,L7,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "CPU1-NRF5340-uBlox-NORA-PWR_Cu.gbr",
+      "FileFunction": "Copper,L9,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "CPU1-NRF5340-uBlox-NORA-GND_Cu.gbr",
+      "FileFunction": "Copper,L11,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "CPU1-NRF5340-uBlox-NORA-B_Cu.gbr",
+      "FileFunction": "Copper,L6,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "CPU1-NRF5340-uBlox-NORA-F_Paste.gbr",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "CPU1-NRF5340-uBlox-NORA-B_Paste.gbr",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "CPU1-NRF5340-uBlox-NORA-F_Silkscreen.gbr",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "CPU1-NRF5340-uBlox-NORA-B_Silkscreen.gbr",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "CPU1-NRF5340-uBlox-NORA-F_Mask.gbr",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "CPU1-NRF5340-uBlox-NORA-B_Mask.gbr",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "CPU1-NRF5340-uBlox-NORA-Edge_Cuts.gbr",
+      "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    }
+  ],
+  "MaterialStackup": [
+    {
+      "Type": "Legend",
+      "Color": "Black",
+      "Name": "Top Silk Screen"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Top Solder Paste"
+    },
+    {
+      "Type": "SolderMask",
+      "Color": "White",
+      "Thickness": 0.01,
+      "Name": "Top Solder Mask"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "F.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.107,
+      "Material": "FR4",
+      "Name": "F.Cu/in1.Cu",
+      "Notes": "Type: dielectric layer 1 (from F.Cu to in1.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "in1.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.2,
+      "Material": "FR4",
+      "Name": "in1.Cu/in2.Cu",
+      "Notes": "Type: dielectric layer 2 (from in1.Cu to in2.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "in2.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.117,
+      "Material": "FR4",
+      "Name": "in2.Cu/PWR.Cu",
+      "Notes": "Type: dielectric layer 3 (from in2.Cu to PWR.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "PWR.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.2,
+      "Material": "FR4",
+      "Name": "PWR.Cu/GND.Cu",
+      "Notes": "Type: dielectric layer 4 (from PWR.Cu to GND.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "GND.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.107,
+      "Material": "FR4",
+      "Name": "GND.Cu/B.Cu",
+      "Notes": "Type: dielectric layer 5 (from GND.Cu to B.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "B.Cu"
+    },
+    {
+      "Type": "SolderMask",
+      "Color": "White",
+      "Thickness": 0.01,
+      "Name": "Bottom Solder Mask"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Bottom Solder Paste"
+    },
+    {
+      "Type": "Legend",
+      "Color": "Black",
+      "Name": "Bottom Silk Screen"
+    }
+  ]
+}
